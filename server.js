@@ -4,7 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 
 const rappers = {
     'j cole' : {

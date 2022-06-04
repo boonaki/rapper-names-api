@@ -4,6 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 
+//using port 8000 or the heroku provided port
 const PORT = process.env.PORT || 8000
 
 const rappers = {
